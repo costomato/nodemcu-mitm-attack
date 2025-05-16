@@ -10,6 +10,7 @@
  * I’m posting this update after a long time. It includes a demo/concept showing how to perform key exchange using ECDH (Elliptic Curve Diffie–Hellman), as well as encryption and decryption using the AES standard.
  * This is in a separate file because I created it specifically for the ESP32 (my ESP8266 was being used for another purpose). I believe this code should work on the ESP8266 as well. I plan to post a full implementation soon, which was originally intended to be part of the main file.
  * By the way, I used PlatformIO for this specific code. If you're running it on the Arduino IDE, you may need to make a few adjustments, but I don’t think it will require many changes.
+ * For now, I am just uploading this code as an .ino file, but in the future, I plan to publish this project using the PlatformIO framework.
  */
 
  #include <Arduino.h>
