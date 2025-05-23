@@ -116,8 +116,17 @@ Solution: RSA cannot be used as it requires more computational power. Hence we u
 
 We can add security to the project by following these steps:
 
-#### TODO
+> **Note:** The complete implementation of ECC-based security—featuring Elliptic Curve Diffie-Hellman (ECDH) key exchange and AES encryption—has been moved to separate repositories for better modularity and clarity.
 
+* 🔐 **ECC Client (ESP32-based sensor node):**
+  [iot-security-ecc-client](https://github.com/costomato/iot-security-ecc-client)
+
+* 🛡️ **ECC Server (decryption + ThingSpeak integration):**
+  [iot-security-ecc-server](https://github.com/costomato/iot-security-ecc-server)
+
+These repositories demonstrate how to protect IoT communication using secure cryptographic protocols, ensuring confidentiality and integrity even in hostile network environments.
+
+---
 
 ## Conclusion
 
